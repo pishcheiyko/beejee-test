@@ -1,0 +1,21 @@
+{
+    "name": "alex/beejee",
+    "description": "Test task",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Oleksandr Pishcheiyko",
+            "email": "pishcheiyko@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app",
+            "Src\\": "src"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
